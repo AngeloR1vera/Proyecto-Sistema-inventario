@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - Sistema de Inventario</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="active">Inicio</a>
+  <a href="inventario.html">Inventario</a>
+  <a href="ventas.html">Ventas</a>
+</nav>
+
+<section class="container">
+  <h2>Bienvenido al Sistema de Inventario</h2>
+
+  <p class="intro">
+    Administra productos, controla ventas y lleva un historial completo.
+    Toda la información se guarda automáticamente en <b>LocalStorage</b>.
+  </p>
+
+  <div class="cards">
+    <div class="card">
+      <h3>📦 Inventario</h3>
+      <p>Agrega, edita y elimina productos en stock.</p>
+      <a href="inventario.html" class="btn-card">Ir al inventario</a>
+    </div>
+
+    <div class="card">
+      <h3>💵 Ventas</h3>
+      <p>Registra ventas y controla la cantidad disponible.</p>
+      <a href="ventas.html" class="btn-card">Ir a ventas</a>
+    </div>
+
+    <div class="card">
+      <h3>📊 Reportes</h3>
+      <p>Consulta el historial de ventas acumuladas.</p>
+      <a href="ventas.html" class="btn-card">Ver historial</a>
+    </div>
+  </div>
+
+  <!-- ESTADÍSTICAS -->
+  <div class="stats">
+    <div class="stat-box">
+      <h4 id="statProductos">0</h4>
+      <p>Productos registrados</p>
+    </div>
+
+    <div class="stat-box">
+      <h4 id="statCantidadVentas">0</h4>
+      <p>Total de ventas realizadas</p>
+    </div>
+
+    <div class="stat-box">
+      <h4 id="statVentas">$0</h4>
+      <p>Total en ventas</p>
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  Sistema de Inventario © 2025
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
