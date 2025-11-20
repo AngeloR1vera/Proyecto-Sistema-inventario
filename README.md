@@ -3,7 +3,9 @@ Proyecto desarrollado como parte del curso, con el objetivo de implementar un **
 
 ---
 
-GitHub Pages:
+# ✍️ Desarrollado por: 
+- Angelo Rivera Barrera
+- Kevin Alexis Rico Micolta
 
 ---
 
