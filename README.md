@@ -3,6 +3,10 @@ Proyecto desarrollado como parte del curso, con el objetivo de implementar un **
 
 ---
 
+GitHub Pages:
+
+---
+
 ## 🧾 Descripción del Proyecto
 Este proyecto permite administrar productos, registrar ventas y visualizar estadísticas generales.  
 Incluye 3 módulos principales:
@@ -41,15 +45,8 @@ El sistema funciona completamente en el navegador, sin necesidad de servidor o b
 
 ---
 
-## 🛠 Tecnologías Utilizadas
-- **HTML5**  
-- **CSS3**  
-- **JavaScript (Vanilla)**  
-- **LocalStorage** para persistencia de datos  
-
 No se utilizan frameworks ni librerías externas.
 
 ---
 
-## 📂 Estructura del Proyecto
 
